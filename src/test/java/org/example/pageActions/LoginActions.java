@@ -27,6 +27,7 @@ public class LoginActions {
     public void click(){
         loginElements.login.click();
     }
+//sc01
     public void userid(){
         loginElements.userid.sendKeys("mngr446207");
     }
@@ -43,7 +44,7 @@ public class LoginActions {
     public void submit(){
         loginElements.log.click();
     }
-
+//sco2
     public void userId(){
         loginElements.userId.sendKeys("");
         Actions action=new Actions(driver);

@@ -33,7 +33,7 @@ public class Logindefinitions {
     public void loginShouldBeSuccessful() {
         System.out.println("login should be successful");
     }
-
+//Sc02
     @When("enter userid And do not enter password And click on login")
     public void enterUseridAndDoNotEnterPasswordAndClickOnLogin() {
         loginActions.userid();
@@ -45,7 +45,7 @@ public class Logindefinitions {
     public void erroMessageShouldBeDisplayed() {
         System.out.println("erro message should be displayed");
     }
-
+//sc03
     @When("do not userid And enter password And click on login")
     public void enterDoNotUseridAndEnterPasswordAndClickOnLogin() {
         loginActions.userId();
@@ -59,7 +59,7 @@ public class Logindefinitions {
     public void erroMessage() {
         System.out.println("erro message should be displayed");
     }
-
+//sc04
     @When("do not userid And do not enter password And click on login")
     public void doNotUseridAndDoNotEnterPasswordAndClickOnLogin() {
         loginActions.useId();
